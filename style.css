@@ -169,12 +169,59 @@ body{
 }
 .checks{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 20px;
     height: 260px;
 }
 
 .packet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     width: 230px;
     height: 650px;
+    margin: 5px;
+    box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
+    border-radius: 10px;
+}
+.cuadroTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+}
+.beneficios{
+    margin: 25px;
+}
+.botonPrecio{
+    width: 170px;
+    height: 50px;
+    color: #FABF62;
+    border: #FABF62 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 16px;
+    
+}
+.botonPrecio:hover{
+    background-color: #FABF62;
+    color: white;
+    border: none;
+}
+.textPacket{
+    display: flex;
+    flex-direction: column;
+}
+.lista{
+    margin: 22px;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
