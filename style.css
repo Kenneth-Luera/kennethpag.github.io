@@ -162,11 +162,7 @@ body{
     background-color: #FFFEFC;
     color: #FABF62;
 }
-.oferta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .checks{
     display: flex;
     justify-content: center;
@@ -186,42 +182,127 @@ body{
     margin: 5px;
     box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
     border-radius: 10px;
+    transition: 1s;
+}
+.packet:hover{
+    width: 235px;
+    height: 655px;
+    box-shadow: none;
+
+    transition: 1s;
 }
 .cuadroTexto{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
-
+    margin-top: 190px;
+    margin-bottom: 160px;
 }
 .beneficios{
-    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 143px;
+    height: 40px;
+    border-bottom: rgb(242, 237, 237) 1px solid
 }
 .botonPrecio{
     width: 170px;
     height: 50px;
     color: #FABF62;
     border: #FABF62 1px solid;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: white;
     font-size: 16px;
+    transition: 0.5s;
     
 }
 .botonPrecio:hover{
     background-color: #FABF62;
     color: white;
     border: none;
+    transition: 0.5s;
 }
 .textPacket{
     display: flex;
     flex-direction: column;
 }
 .lista{
-    margin: 22px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 11px;
+    padding-top: 32px;
+    border-bottom: rgb(242, 237, 237) 1px solid;
 }
+
 .plan{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.recomended{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 230px;
+    height: 685px;
+    margin: 5px;
+    box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
+    border-radius: 10px;
+    transition: 1s;
+}
+.recomended:hover{
+        width: 235px;
+        height: 690px;
+        box-shadow: none;
+        transition: 1s;
+        
+}
+.recomended:hover .botonRecomended{
+    width: 235px;
+    height: 35px;
+    transition: 1s;
+}
+.p3{
+    display: flex;
+    justify-content: center;
+    
+}
+.cuadroPacket{
+    display: flex;
+    align-items: flex-end;
+    height: 700px;
+
+}
+.checksRecomended{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20px;
+    height: 260px;
+    margin-top: 40px;
+}
+.botonRecomended{
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 35px;
+    color: white;
+    background-color: #3ba9e9;
+    border-radius: 10px 10px 0px 0px;
+    transition: 1s;
+}
+.planRecomended{
+    margin: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.encabezadoP3{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
 }
