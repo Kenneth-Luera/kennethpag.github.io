@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column ;
     align-items: center;
+    font-family: "DM Sans", sans-serif;
 }
 .p1{
     display: flex;
@@ -49,6 +50,7 @@ body{
     border-radius: 5px;
     color:white;
     background-color: #FABF62;
+    font-size: 16px;
 }
 .p1_2{
     display: flex;
@@ -77,7 +79,7 @@ body{
 }
 .parrafo1{
     font-size: 52px;
-    font-family: sans-serif;
+    font-weight: bold;
     color: #02073E;
     width: 570px;
     height: 211px;
@@ -86,7 +88,6 @@ body{
 }
 .parrafo2{
     font-size: 16px;
-    font-family: sans-serif;
     color: #02073E;
     width: 486px;
     height: 116px;
@@ -100,6 +101,7 @@ body{
     width: 140px;
     height: 45px;
     border: none;
+    font-size: 16px;
     background-color: #FABF62;
     color: white;
     border-radius: 10px;
@@ -110,6 +112,7 @@ body{
     width: 170px;
     height: 45px;
     border: none;
+    font-size: 16px;
     background-color: white;
     color: black;
     border-radius: 10px;
@@ -134,10 +137,21 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.Ideal{
+    font-size: 16px;
+    color: rgba(235, 167, 61, 1);
+}
+.beyond{
+    font-size: 24px;
+}
 .icoText{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
+}
+.tituloP2{
+    font-weight: bold;
 }
 .cajaText{
     width: 365px;
@@ -151,6 +165,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 16px;
+}
+.tituloT2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.enlace{
+    border-bottom: black 1px solid;
+    color: #3570e7;
+    border-color: #3570e7;
 }
 .globo1{
     display: flex;
@@ -193,7 +217,14 @@ body{
     width: 20px;
     height: 260px;
 }
+.titleP3{
+    font-size: 16px;
+    color:#FABF62;
 
+}
+.titleP3_1{
+    font-size: 24px;
+}
 .packet{
     display: flex;
     justify-content: space-around;
@@ -475,6 +506,9 @@ body{
     border: none;
     background-color: rgba(249, 250, 252, 1);
     
+}
+.footer button:hover{
+    color: #3570e7;
 }
 .subtitulo{
     font-size: 18px;
