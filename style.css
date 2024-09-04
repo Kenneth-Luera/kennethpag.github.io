@@ -182,14 +182,14 @@ body{
     margin: 5px;
     box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
     border-radius: 10px;
-    transition: 1s;
+    transition: 0.3s;
 }
 .packet:hover{
     width: 235px;
     height: 655px;
     box-shadow: none;
 
-    transition: 1s;
+    transition: 0.3s;
 }
 .cuadroTexto{
     display: flex;
@@ -251,19 +251,19 @@ body{
     margin: 5px;
     box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
     border-radius: 10px;
-    transition: 1s;
+    transition: 0.3s;
 }
 .recomended:hover{
         width: 235px;
         height: 690px;
         box-shadow: none;
-        transition: 1s;
+        transition: 0.3s;
         
 }
 .recomended:hover .botonRecomended{
     width: 235px;
     height: 35px;
-    transition: 1s;
+    transition: 0.3s;
 }
 .p3{
     display: flex;
@@ -293,7 +293,7 @@ body{
     color: white;
     background-color: #3ba9e9;
     border-radius: 10px 10px 0px 0px;
-    transition: 1s;
+    transition: 0.3s;
 }
 .planRecomended{
     margin: 38px;
@@ -304,5 +304,41 @@ body{
 .encabezadoP3{
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
+}
+.p3_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 970px;
+    color: white;
+    background-color: rgba(53, 52, 72, 1);
+}
+.p4_2{
+    display: flex;
+}
+.cajaimg1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.cajaimg3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.p5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textosP5{
+    display: flex;
 }
