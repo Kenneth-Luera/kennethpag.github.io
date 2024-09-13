@@ -341,12 +341,12 @@ body{
     
 }
 
-.titleP3{
+.titleP2{
     font-size: 16px;
     color:#FABF62;
 
 }
-.titleP3_1{
+.titleP2_1{
     font-size: 24px;
 }
 .tituloP4{
@@ -454,12 +454,7 @@ body{
 }
 
 
-.p3{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 139.89px;
-}
+
 .cuadroPacket{
     display: flex;
     align-items: flex-end;
@@ -506,13 +501,13 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.p3_2{
+.p2_2{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 160px;
 }
-.p4{
+.p3{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -550,24 +545,25 @@ body{
     width: 350.41px;
     height: 280px;
 }
-.P5{
+.p4{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 90px;
+    flex-direction: column;
 }
-.contenidoP5{
+.contenidoP4{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 1240px;
     height: 824px;
 }
-.textosP5{
+.textosP4{
     display: flex;
     margin-top: 80px;
 }
-.texto1P5{
+.texto1P4{
     display: flex;
     width: 580px;
     height: 596px;
@@ -575,7 +571,7 @@ body{
     font-size: 16px;
     margin-right: 40px;
 }
-.texto2P5{
+.texto2P4{
     display: flex;
     width: 580px;
     height: 659px;
@@ -602,21 +598,21 @@ body{
 }
 /* PARRAFOS */
 
-.titleP5{
+.titleP4{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: -0.5px;
     text-align: left;
 }
-.parrafoP5_1{
+.parrafoP4_1{
     width: 579.23px;
     height: 156.67px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.parrafoP5_2{
+.parrafoP4_2{
     width: 580px;
     height: 196px;
     margin-top: 40px;
@@ -624,7 +620,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
 }
-.parrafoP5_3{
+.parrafoP4_3{
     width: 580px;
     height: 162px;
     margin-top: 40px;
@@ -642,14 +638,14 @@ body{
     text-align: left;
 
 }
-.parrafo2P5_1{
+.parrafo2P4_1{
     width: 580px;
     height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.parrafo2P5_2{
+.parrafo2P4_2{
     width: 580px;
     height: 161px;
     margin-top: 35px;
@@ -657,7 +653,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
 }
-.parrafo2P5_3{
+.parrafo2P4_3{
     width: 580px;
     height: 125px;
     margin-top: 35px;
@@ -665,7 +661,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
 }
-.parrafo2P5_4{
+.parrafo2P4_4{
     width: 580px;
     height: 125px;
     margin-top: 40px;
