@@ -6,6 +6,11 @@
 button{
     font-family: "DM Sans", sans-serif;
 }
+:root{
+    --height_row_1: 222px;
+    --height_row_2: 168px;
+    --height_row_3: 59px;
+}
 body{
     margin: 0;
 }
@@ -324,7 +329,7 @@ body{
     align-items: center;
     flex-direction: column;
     width: 20px;
-    height: 260px;
+
 }
 .circuloIco{
     display: flex;
@@ -360,7 +365,7 @@ body{
     align-items: center;
     flex-direction: column;
     width: 230px;
-    height: 650px;
+    /* height: 650px; */
     margin: 5px;
     border: 1px solid rgba(237, 240, 244, 1);
     border-radius: 10px;
@@ -372,14 +377,15 @@ body{
 }
 .recomended{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     width: 230px;
-    height: 685px;
     margin: 5px;
     border: 1px solid rgba(237, 240, 244, 1);
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     transition: 0.3s;
+    position: relative;
 }
 .textPacketRecomended{
     display: flex;
@@ -396,19 +402,44 @@ body{
     justify-content: center;
     margin-top: 50px;
     align-items: flex-start;
+    position: relative;
 }
 .seccionOfer{
-    margin-top: 204px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 230px;
+    margin: 5px;
+    transition: 0.3s;
+    border: solid transparent;
+}
+.textpacketofer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: var(--height_row_2);
+    justify-content: center;
+}
+.ofertaCaja{
+    display: flex;
+
+    flex-direction: column;
 }
 .beneficios{
+    height: var(--height_row_3);
+    width: 162px;
+    padding: 0px 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 143px;
-    height: 40px;
-    border-bottom: rgb(242, 237, 237) 1px solid;
+    align-items: flex-start;
+    font-family: DM Sans;
     font-size: 16px;
-    /* margin: 24px; */
-    margin: 24px 0px;
+    font-weight: 500;
+    line-height: 20.83px;
+    text-align: left;
 }
 .botonPrecio:hover{
     background-color: #FABF62;
@@ -416,14 +447,7 @@ body{
     border: none;
     transition: 0.5s;
 }
-.beneficios1{
-    display: flex;
-    justify-content: center;
-    width: 143px;
-    height: 40px;
-    border-bottom: rgb(242, 237, 237) 1px solid;
-    font-size: 16px;
-}
+
 .botonPrecio{
     width: 170px;
     height: 50px;
@@ -439,27 +463,44 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 230px;
+    height: var(--height_row_2);
+    justify-content: center;
 }
 .lista{
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-bottom: 11px;
-    padding-top: 32px;
-    border-bottom: rgb(242, 237, 237) 1px solid;
+    height: var(--height_row_3);
+    width: 230px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .plan{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 230px;
+    height: var(--height_row_1);
+    justify-content: center;
 }
-
-
+.Line{
+    border-bottom:  rgba(237, 240, 244, 1) solid 1px;
+    width: 1133px;
+    height: 59px;
+}
+.seccionLine{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 176px;
+    right: 50%;
+    transform: translateX(52.5%);
+}
 
 .cuadroPacket{
     display: flex;
     align-items: flex-end;
-    height: 700px;
-
 }
 .checksRecomended{
     display: flex;
@@ -467,8 +508,7 @@ body{
     align-items: center;
     flex-direction: column;
     width: 20px;
-    height: 260px;
-    margin-top: 89px;
+
 }
 .botonRecomended{
     display: flex;
@@ -481,6 +521,8 @@ body{
     transition: 0.3s;
     font-size: 14px;
     align-items: center;
+    position: absolute;
+    top: -36px;
 }
 .tPaquetes{
     font-size: 16px;
@@ -712,8 +754,9 @@ body{
     border-radius: 10px;
     align-items: center;
     position: absolute;
-    top: -263px;
-    left: -102px;;
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .azul p{
     font-size: 36px;
@@ -737,13 +780,16 @@ body{
     margin-left: 44.59px;
 
 }
+.final{
+    padding-top: 90px;
+    position: relative;
+}
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 460px;
     background-color: rgba(249, 250, 252, 1);
-    margin-top: 90px;
 }
 .botonesFooter{
     display: flex;
