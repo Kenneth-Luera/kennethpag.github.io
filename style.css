@@ -199,13 +199,13 @@ body{
 }
 .cajaText{
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     /* height: 130px; */
     margin: 20px;
     flex-direction: column;
 }
 .circuloIco{
-    display: flex;
+    display: flex; 
     width: 70px;
     height: 70px;  
     border: none;
@@ -276,19 +276,13 @@ body{
 }
 .enlace{
     color: #3570e7;
-
-    width: 129.85px;
-    height: 42px;
-    top: 1701px;
-    left: 895px;
-    padding: 0px;
-    gap: 0px;
-    opacity: 0px;
+    margin: 14px;
 }
 .iconos{
     position: absolute;
-    left: 489px;
-    top: 692px;
+    width: 40%;
+    left: 30%;
+    top: 72%;
 }
 .globo1{
     display: flex;
@@ -326,7 +320,12 @@ body{
 
     /* seccion 2 packet */
 
-
+    .p2_1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;       
+    }
     .encabezadoP3{
         display: flex;
         flex-direction: column;
@@ -338,17 +337,17 @@ body{
     
     }
     .titleP2_1{
-        font-size: 24px;
+        font-size: 18px;
     }
     .cuadroTexto{
         display: flex;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: -3px;
         align-items: flex-start;
         position: relative;
     }
     .seccionOfer{
-        display: flex;
+        display: none;
         justify-content: space-around;
         align-items: flex-end;
         flex-direction: column;
@@ -377,25 +376,39 @@ body{
         line-height: 20.83px;
         text-align: left;
     }
+    .beneficiosRes{
+        height: var(--height_row_3);
+        /* width: 162px; */
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.83px;
+        text-align: left;
+    }
     .plan{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: var(--height_row_1);
+        height: 131px;
         justify-content: center;
     }
     .cuadroPacket{
         display: flex;
         align-items: flex-end;
+        flex-direction: column;
     }
     .packet{
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        width: 230px;
-        /* height: 650px; */
-        margin: 5px;
+        width: 100%;
+        margin: 20px 0px;
         border: 1px solid rgba(237, 240, 244, 1);
         border-radius: 10px;
         transition: 0.3s;
@@ -428,11 +441,16 @@ body{
         padding: 0px 10px;
         display: flex;
         flex-direction: column;
+        border-bottom: 1px solid rgba(237, 240, 244, 1);
+        padding: 12px;
         justify-content: center;
         align-items: center;
     }
+    .border{
+        border-top: 1px solid rgba(237, 240, 244, 1);
+    }
     .seccionLine{
-        display: flex;
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 176px;
@@ -501,8 +519,7 @@ body{
         font-size: 14px;
         align-items: center;
         position: absolute;
-        top: -36px;
-    }
+        top: -8px;    }
     .planRecomended{
         margin: 31px;
         display: flex;
@@ -516,6 +533,26 @@ body{
     }
 
     /*seccion 2 packet fin*/
+
+    /*seccion 2.2*/
+
+    .p2_2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 9px;
+        width: 100%;
+    }
+    .parrafoT2{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .imgP2_2{
+        width: 100%;
+    }
 
 @media (min-width: 480px){
     /* parte 1 */
@@ -960,13 +997,14 @@ body{
 
     /*seccion 2 packet fin*/
 
+    /*seccion 2.2*/
 
-
-
-
-
-
-
+    .p2_2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 160px;
+    }
     .parrafoT2{
         font-size: 16px;
         font-weight: 400;
@@ -976,6 +1014,14 @@ body{
         width: 623px;
         height: 84px;
     }
+    .imgP2_2{
+        width: 100%;
+    }
+
+
+
+
+
     .barra{
         width: 1000px;
         height: 35px;
@@ -995,12 +1041,7 @@ body{
 
 
 
-    .p2_2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 160px;
-    }
+
     .p3{
         display: flex;
         flex-direction: column;
