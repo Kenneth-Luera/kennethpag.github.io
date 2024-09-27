@@ -162,13 +162,17 @@ body{
 .p2{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+}
+.cajaContenedora{
+    max-width: 479px;
+    width: 100%;
 }
 .text1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 59px;
+    margin-top: 24px;
 }
 .Ideal{
     color: rgba(235, 167, 61, 1);
@@ -188,16 +192,17 @@ body{
 .icoText{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+    align-items: flex-start;
+    margin-top: 41px;
     font-size: 16px;
-    
+    flex-direction: column;
 }
 .cajaText{
     display: flex;
-    width: 365px;
-    height: 130px;
+    width: 100%;
+    /* height: 130px; */
     margin: 20px;
+    flex-direction: column;
 }
 .circuloIco{
     display: flex;
@@ -215,9 +220,7 @@ body{
     font-weight: 700;
     line-height: 30px;
     text-align: left;
-    
 }
-
 .informacion{
     font-family: DM Sans;
     font-size: 16px;
@@ -229,23 +232,18 @@ body{
     top: 1282px;
     left: 473px;
     gap: 0px;
-    opacity: 0px;
-        
+    opacity: 0px; 
 }
 .imgP2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .seccionImg{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 175px;
-    width: 1218px;
-    height: 869.11px; 
+    margin-top: 64px;
 }
 .informacion2{
     display: flex;
@@ -253,6 +251,14 @@ body{
     align-items: center;
     font-size: 16px;
 }
+.imgBarra{
+    width: 100%;
+}
+.cajaimg0{
+    width: 100%;
+    position: relative;
+}
+
 .tituloT2{
     font-size: 24px;
     font-weight: 500;
@@ -261,17 +267,12 @@ body{
     text-align: center;
 }
 .textImg{
-    font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 35px;
     text-align: center;
-    width: 623px;
-    height: 84px;
-    top: 1607px;
-    left: 649px;
-    gap: 0px;
-    opacity: 0px;    
+    margin-bottom: 3px;
+    padding: 0px 10px;
 }
 .enlace{
     color: #3570e7;
@@ -293,36 +294,228 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 277px;
-    height: 143px;
+    width: 137px;
+    height: 56px;
     background-color: #FABF62;
     color: #FFFEFC;
     border-radius: 20px 20px 0px 20px;
-    font-size: 22px;
+    font-size: 12px;
     position: absolute;
-    left: -10px;
-    top: 311px;
-    bottom: 550px;
-    right: 150px;
-    
+    left: 1%;
+    top: 10%;
 }
 .globo2{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 290px;
-    height: 105px;
-    background-color: #FFFEFC;
+    width: 141px;
+    height: 49px;
+    background-color: #FFFEFD;
     color: #FABF62;
     box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
     border-radius: 20px 20px 20px 0px;
-    font-size: 22px;
+    font-size: 12px;
     position: absolute;
-    bottom: 158px;
-    left: 909px;
-
+    bottom: 15%;
+    right: 1%;
 }
 
+    /* fin seccion 2 */
+
+    /* seccion 2.1 */
+
+    /* seccion 2 packet */
+
+
+    .encabezadoP3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titleP2{
+        font-size: 16px;
+        color:#FABF62;
+    
+    }
+    .titleP2_1{
+        font-size: 24px;
+    }
+    .cuadroTexto{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        align-items: flex-start;
+        position: relative;
+    }
+    .seccionOfer{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        flex-direction: column;
+        column-gap: 5px;
+        transition: 0.3s;
+        border: solid transparent;
+    }
+    .textpacketofer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: var(--height_row_2);
+        justify-content: center;
+    }
+    .beneficios{
+        height: var(--height_row_3);
+        /* width: 162px; */
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.83px;
+        text-align: left;
+    }
+    .plan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: var(--height_row_1);
+        justify-content: center;
+    }
+    .cuadroPacket{
+        display: flex;
+        align-items: flex-end;
+    }
+    .packet{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 230px;
+        /* height: 650px; */
+        margin: 5px;
+        border: 1px solid rgba(237, 240, 244, 1);
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    .textPacket{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 230px;
+        height: var(--height_row_2);
+        justify-content: center;
+    }
+    .tPaquetes{
+        font-size: 16px;
+    }
+    .tPrecio{
+        font-size: 26px;
+    }
+    .checks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 20px;
+    
+    }
+    .lista{
+        height: var(--height_row_3);
+        width: 230px;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionLine{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 176px;
+        right: 0;
+        width: 100%;
+        pointer-events: none;
+    }
+    .Line{
+        border-bottom: rgba(237, 240, 244, 1) solid 1px;
+        width: 100%;
+        height: 59px;
+    }
+    .botonPrecio:hover{
+        background-color: #FABF62;
+        color: white;
+        border: none;
+        transition: 0.5s;
+    }
+    .botonPrecio{
+        width: 170px;
+        height: 50px;
+        color: #FABF62;
+        border: #FABF62 1px solid;
+        border-radius: 5px;
+        background-color: white;
+        font-size: 16px;
+        transition: 0.5s;
+    }
+    .recomended{
+        border: 1px solid rgba(237, 240, 244, 1);
+        border-radius: 0px 0px 10px 10px;
+        position: relative;
+    }
+    .textPacketRecomended{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 44px;
+    }
+    .recomended:hover{
+        box-shadow: 0px 15px 50px 0px rgba(91, 132, 193, 0.1);
+        transition: 0.3s;
+    }
+    .packet:first-child{
+        margin-left: 0px;
+    }
+    .packet:last-child{
+        margin-right: 0px;
+    }
+    .checksRecomended{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 20px;
+    }
+    .botonRecomended{
+        display: flex;
+        justify-content: center;
+        width: 230px;
+        height: 35px;
+        color: white;
+        background-color: #3ba9e9;
+        border-radius: 10px 10px 0px 0px;
+        transition: 0.3s;
+        font-size: 14px;
+        align-items: center;
+        position: absolute;
+        top: -36px;
+    }
+    .planRecomended{
+        margin: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 89px;
+    }
+    .packet:hover{
+        box-shadow: 0px 15px 50px 0px rgba(91, 132, 193, 0.1);
+        transition: 0.3s;
+    }
+
+    /*seccion 2 packet fin*/
 
 @media (min-width: 480px){
     /* parte 1 */
@@ -572,87 +765,23 @@ body{
     
     }
 
-    /* parte 2.1 */
+    /* fin seccion 2 */
+
+    /* seccion 2 packet */
 
 
-
-
-
-
-
+    .encabezadoP3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .titleP2{
         font-size: 16px;
         color:#FABF62;
     
     }
-    .parrafoT2{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 34px;
-        text-align: center;
-        margin-top: 10px;
-        width: 623px;
-        height: 84px;
-    }
-
-
-    .barra{
-        width: 1000px;
-        height: 35px;
-    }
-    .iconos{
-        position: absolute;
-        left: 489px;
-        top: 692px;
-    }
-
-    .checks{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 20px;
-    
-    }
-
     .titleP2_1{
         font-size: 24px;
-    }
-    .tituloP4{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .packet{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-        width: 230px;
-        /* height: 650px; */
-        margin: 5px;
-        border: 1px solid rgba(237, 240, 244, 1);
-        border-radius: 10px;
-        transition: 0.3s;
-    }
-    .packet:hover{
-        box-shadow: 0px 15px 50px 0px rgba(91, 132, 193, 0.1);
-        transition: 0.3s;
-    }
-    .recomended{
-        border: 1px solid rgba(237, 240, 244, 1);
-        border-radius: 0px 0px 10px 10px;
-        position: relative;
-    }
-    .textPacketRecomended{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 44px;
-    }
-    .recomended:hover{
-        box-shadow: 0px 15px 50px 0px rgba(91, 132, 193, 0.1);
-        transition: 0.3s;
     }
     .cuadroTexto{
         display: flex;
@@ -677,11 +806,6 @@ body{
         height: var(--height_row_2);
         justify-content: center;
     }
-    .ofertaCaja{
-        display: flex;
-    
-        flex-direction: column;
-    }
     .beneficios{
         height: var(--height_row_3);
         /* width: 162px; */
@@ -696,23 +820,28 @@ body{
         line-height: 20.83px;
         text-align: left;
     }
-    .botonPrecio:hover{
-        background-color: #FABF62;
-        color: white;
-        border: none;
-        transition: 0.5s;
+    .plan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: var(--height_row_1);
+        justify-content: center;
     }
-    
-    .botonPrecio{
-        width: 170px;
-        height: 50px;
-        color: #FABF62;
-        border: #FABF62 1px solid;
-        border-radius: 5px;
-        background-color: white;
-        font-size: 16px;
-        transition: 0.5s;
-        
+    .cuadroPacket{
+        display: flex;
+        align-items: flex-end;
+    }
+    .packet{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 230px;
+        /* height: 650px; */
+        margin: 5px;
+        border: 1px solid rgba(237, 240, 244, 1);
+        border-radius: 10px;
+        transition: 0.3s;
     }
     .textPacket{
         display: flex;
@@ -721,6 +850,20 @@ body{
         width: 230px;
         height: var(--height_row_2);
         justify-content: center;
+    }
+    .tPaquetes{
+        font-size: 16px;
+    }
+    .tPrecio{
+        font-size: 26px;
+    }
+    .checks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 20px;
+    
     }
     .lista{
         height: var(--height_row_3);
@@ -731,18 +874,6 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .plan{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: var(--height_row_1);
-        justify-content: center;
-    }
-    .Line{
-        border-bottom: rgba(237, 240, 244, 1) solid 1px;
-        width: 100%;
-        height: 59px;
-    }
     .seccionLine{
         display: flex;
         flex-direction: column;
@@ -752,15 +883,47 @@ body{
         width: 100%;
         pointer-events: none;
     }
+    .Line{
+        border-bottom: rgba(237, 240, 244, 1) solid 1px;
+        width: 100%;
+        height: 59px;
+    }
+    .botonPrecio:hover{
+        background-color: #FABF62;
+        color: white;
+        border: none;
+        transition: 0.5s;
+    }
+    .botonPrecio{
+        width: 170px;
+        height: 50px;
+        color: #FABF62;
+        border: #FABF62 1px solid;
+        border-radius: 5px;
+        background-color: white;
+        font-size: 16px;
+        transition: 0.5s;
+    }
+    .recomended{
+        border: 1px solid rgba(237, 240, 244, 1);
+        border-radius: 0px 0px 10px 10px;
+        position: relative;
+    }
+    .textPacketRecomended{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 44px;
+    }
+    .recomended:hover{
+        box-shadow: 0px 15px 50px 0px rgba(91, 132, 193, 0.1);
+        transition: 0.3s;
+    }
     .packet:first-child{
         margin-left: 0px;
     }
     .packet:last-child{
         margin-right: 0px;
-    }
-    .cuadroPacket{
-        display: flex;
-        align-items: flex-end;
     }
     .checksRecomended{
         display: flex;
@@ -768,7 +931,6 @@ body{
         align-items: center;
         flex-direction: column;
         width: 20px;
-    
     }
     .botonRecomended{
         display: flex;
@@ -784,25 +946,55 @@ body{
         position: absolute;
         top: -36px;
     }
-    .tPaquetes{
-        font-size: 16px;
-    }
-    .tPrecio{
-        font-size: 26px;
-    }
     .planRecomended{
         margin: 31px;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 89px;
-    
     }
-    .encabezadoP3{
+    .packet:hover{
+        box-shadow: 0px 15px 50px 0px rgba(91, 132, 193, 0.1);
+        transition: 0.3s;
+    }
+
+    /*seccion 2 packet fin*/
+
+
+
+
+
+
+
+
+    .parrafoT2{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 10px;
+        width: 623px;
+        height: 84px;
+    }
+    .barra{
+        width: 1000px;
+        height: 35px;
+    }
+    .iconos{
+        position: absolute;
+        left: 489px;
+        top: 692px;
+    }
+
+    .tituloP4{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+
+
+
     .p2_2{
         display: flex;
         flex-direction: column;
