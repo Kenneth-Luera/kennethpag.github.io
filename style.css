@@ -204,6 +204,8 @@ body{
     /* height: 130px; */
     margin: 20px;
     flex-direction: column;
+    flex-direction: row;
+
 }
 .circuloIco{
     display: flex; 
@@ -772,17 +774,8 @@ body{
         line-height: 45px;
         letter-spacing: -1px;
         text-align: center;    
-        width: 576px;
-        height: 91px;
     }
-    .subP6{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 35px;
-        text-align: center;
-        width: 583px;
-        height: 71px;
-    }
+
     .imgFinal{
         margin-top: 25px;
         top: 110px;
@@ -803,14 +796,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .titulo{
-        font-size: 30px;
-        font-weight: 500;
-        line-height: 45px;
-        letter-spacing: -1px;
-        text-align: center;    
-        height: 91px;
-    }
+
     .subP6{
         font-size: 16px;
         font-weight: 400;
@@ -830,11 +816,6 @@ body{
     .barra{
         width: 1000px;
         height: 35px;
-    }
-    .iconos{
-        position: absolute;
-        left: 489px;
-        top: 692px;
     }
     #img{
         margin-top: 50px;
@@ -887,15 +868,16 @@ body{
     }
     .footer{
         display: flex;
+        padding-top: 136px;
         justify-content: center;
         align-items: center;
-        height: 460px;
         background-color: rgba(249, 250, 252, 1);
+        flex-direction: column;
     }
     .botonesFooter{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         width: 214px;
         height: 116px;
         justify-content: space-around;
@@ -907,7 +889,7 @@ body{
         width: 164px;
         height: 175px;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
     }
     .footer button{
         border: none;
@@ -923,7 +905,7 @@ body{
         font-size: 14px;
         font-weight: 400;
         line-height: 18.23px;
-        text-align: left;
+        text-align: center;
     }
     .enlacesFoter{
         margin-right: 76px;
@@ -1121,6 +1103,11 @@ body{
         letter-spacing: -0.5px;
         text-align: center;
     }
+    .centroP{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .textImg{
         font-family: DM Sans;
         font-size: 16px;
@@ -1148,7 +1135,8 @@ body{
     .iconos{
         position: absolute;
         left: 489px;
-        top: 692px;
+        top: 619px;
+        width: auto;
     }
     .globo1{
         display: flex;
@@ -1162,7 +1150,7 @@ body{
         font-size: 22px;
         position: absolute;
         left: -10px;
-        top: 311px;
+        top: 90px;
         bottom: 550px;
         right: 150px;
         
@@ -1239,6 +1227,9 @@ body{
         line-height: 20.83px;
         text-align: left;
     }
+    .beneficiosRes{
+        display: none;
+    }
     .plan{
         display: flex;
         flex-direction: column;
@@ -1249,6 +1240,7 @@ body{
     .cuadroPacket{
         display: flex;
         align-items: flex-end;
+        flex-direction: row;
     }
     .packet{
         display: flex;
@@ -1288,6 +1280,7 @@ body{
         height: var(--height_row_3);
         width: 230px;
         padding: 0px 10px;
+        border: none;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1426,6 +1419,7 @@ body{
     .p4_2{
         display: flex;
         margin-top: 55px;
+        flex-direction: row;
     }
     .cajaimg1{
         display: flex;
@@ -1510,6 +1504,7 @@ body{
     .textosP4{
         display: flex;
         margin-top: 80px;
+        flex-direction: row;
     }
     .texto1P4{
         display: flex;
@@ -1641,11 +1636,7 @@ body{
         width: 1000px;
         height: 35px;
     }
-    .iconos{
-        position: absolute;
-        left: 489px;
-        top: 692px;
-    }
+
     #img{
         margin-top: 50px;
     }
@@ -1699,10 +1690,11 @@ body{
     }
     .footer{
         display: flex;
+        padding-top: 136px;
         justify-content: center;
         align-items: center;
-        height: 460px;
         background-color: rgba(249, 250, 252, 1);
+        flex-direction: row;
     }
     .botonesFooter{
         display: flex;
